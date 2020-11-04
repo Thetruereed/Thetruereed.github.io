@@ -200,7 +200,7 @@ video {
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 0.7px solid rgb(240, 28, 229);
+  border: 0.7px solid purple;
   border-radius: 5px;
   margin-top: 2rem;
   transition: 0.5s;
