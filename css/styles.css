@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   padding: 0;
   min-height: 100%;
+  background-color: black;
 }
 
 *,
@@ -34,7 +35,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 .logo,
@@ -72,7 +73,7 @@ video {
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color: black;
+  color: white;
 }
 
 .logo a {
@@ -83,12 +84,20 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   transition: all ease 0.1s;
 }
 
 .nav-menu a:hover {
   border-bottom: 1px solid black;
+}
+
+.emblem {
+  display: block;
+  max-width: 350px;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*hero header navbar changes */
@@ -179,8 +188,8 @@ video {
 }
 
 .hero-text {
-  font-size: 1rem;
-  margin-top: 0.5rem;
+  font-size: 2rem;
+  margin-top: 1.5rem;
   color: white;
 }
 
@@ -191,9 +200,10 @@ video {
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 1px solid white;
+  border: 0.7px solid rgb(240, 28, 229);
   border-radius: 5px;
   margin-top: 2rem;
+  transition: 0.5s;
 }
 
 .hero-button:hover {
@@ -201,7 +211,7 @@ video {
 }
 
 .hero-button:active {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* Footer Nav Extra Styles */
@@ -219,6 +229,7 @@ video {
 .footer-copyright {
   text-align: center;
   padding-bottom: 3rem;
+  color: white;
 }
 
 .footer-social a {
