@@ -224,6 +224,7 @@ video {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
+  color: white;
 }
 
 .footer-copyright {
@@ -233,8 +234,8 @@ video {
 }
 
 .footer-social a {
-  color: black;
-  padding: 0.1rem;
+  color: white;
+  padding: 0.6rem;
 }
 
 /* Add Media Queries foe Large Screens */
