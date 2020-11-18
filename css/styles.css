@@ -338,6 +338,19 @@ video {
   max-width: 50%;
   max-height: 300px auto;
 }
+/* Begin Gif on hover */
+
+.static-gif {
+  position: absolute;
+  background: white;
+}
+.staic-gif:hover {
+  opacity: 0;
+}
+
+.gif-container {
+  position: relative;
+}
 @media (min-width: 506px) {
   .shop-box {
     width: 506px;
