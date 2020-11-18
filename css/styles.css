@@ -296,6 +296,81 @@ video {
   grid-row: span 1;
 }
 
+/* Styles for embedded shop Page */
+.shop-page {
+  padding: 2rem 1rem 10rem 1rem;
+}
+
+.shop-page h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.shop-page p {
+  color: white;
+}
+
+.shop-page .textbox {
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+.shop-box {
+  width: 266px;
+  margin: 0 auto;
+}
+
+.shop-box iframe {
+  width: 100%;
+}
+
+.h2 {
+  color: white;
+}
+
+.shop-item1 {
+  max-width: 80%;
+  max-height: 300px auto;
+}
+.shop-item2 {
+  max-width: 50%;
+  max-height: 300px auto;
+}
+@media (min-width: 506px) {
+  .shop-box {
+    width: 506px;
+  }
+
+  .shop-box iframe {
+    width: auto;
+  }
+}
+@media (min-width: 746px) {
+  .shop-box {
+    width: 746px;
+  }
+
+  .shop-box iframe {
+    width: auto;
+  }
+}
+
+@media (min-width: 986px) {
+  .shop-box {
+    width: 986px;
+  }
+
+  .shop-box iframe {
+    width: auto;
+  }
+}
+.shop-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
 /* Footer Nav Extra Styles */
 
 .footer-logo {
