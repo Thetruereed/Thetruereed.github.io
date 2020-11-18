@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="css/glightbox.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="shortcut icon" type="image/png" href="/img/Austin Reed's emblem.png">
-    <title>TheTrueReed Homepage</title>
+    <title>TheTrueReed Portfolio Page</title>
 </head>
-<body class="hero-body">
-    <header class="hero-box">
-        <section class="hero-image-box">
-            <video src="video/Rain.mp4" class="hero-video" autoplay muted loop>
-        </section>
-        
-        <nav class="nav-bar hero-nav">
+<body>
+     <header>  
+        <nav class="nav-bar">
             <h1 class="logo"><a href="index.html">Thetruereed</a></h1>
             
             <ul class="nav-menu">
@@ -39,12 +35,31 @@
     </li>
             </ul>
         </nav>
-        <section class="hero-text-box">
-            <h1><class class="hero-heading">Empty Your Mind And Create for Society</class></h1>
-            <p class="hero-text">Some of TheTrueReed's creative ideas are found here</p>
-            <p><button class="hero-button">View Portfolio</button></p>
-        </section>
     </header>
+
+<main class="gallery-page">
+    <h1>Portfolio</h1>
+    <section class="portfolio-gallery gallery-span">
+        <div class="gallery-item w-4 h-2">
+            <a href="img/Juice castle Photo.jpg" class="glightbox"><img src="img/Juice castle Photo.jpg" alt="Juice Castle Image" title="Juice Castle" class="gallery-img"></a>
+        </div>
+            <div class="gallery-item w-4 h-3">
+                <a href="img/Las Vegas Fremont Street.jpg" class="glightbox"><img src="img/Las Vegas Fremont Street.jpg" alt="Fremont Street" title="Fremont Street" class="gallery-img"></a>
+            </div>
+            <div class="gallery-item w-2 h-5">
+                <a href="img/Plane wings.jpg" class="glightbox"><img src="img/Plane wings.jpg" alt="Plane wings" title="Plane wings" class="gallery-img"></a>
+            </div> <div class="gallery-item h-3 w-3">
+                <a href="img/Vector Protrait.jpg" class="glightbox"><img src="img/Vector Protrait.jpg" alt="Vector Protrait" title="Vector Protrait" class="gallery-img"></a>
+            </div> <div class="gallery-item w-6 h-2">
+                <a href="img/Artic Waters Landscape.jpg" class="glightbox"><img src="img/Artic Waters Landscape.jpg" alt="Artic Waters" title="Artic Waters" class="gallery-img"></a>
+            </div> <div class="gallery-item w-3 h-3">
+                <a href="img/Heart of Everglades.jpg" class="glightbox"><img src="img/Heart of Everglades.jpg" alt="Heart of Everglades" title="Heart of Everglades" class="gallery-img"></a>
+            </div> <div class="gallery-item w-6 h-2">
+                <a href="img/Mysterious Light Landscape.PNG" class="glightbox"><img src="img/Mysterious Light Landscape.PNG" alt="Mysterious Light" title="Mysterious Light" class="gallery-img"></a>
+            </div>
+    </section>
+</main>
+
     <footer>
         <nav class="nav-bar footer-nav">
             <ul class="nav-menu">
@@ -65,9 +80,12 @@
             ><i class="fab fa-steam-square" aria-hidden="true"></i
         ></a>
         </section>
-      <p><a href="index.html"><img src="/img/Austin Reed's emblem.png" alt="emblem" class="emblem"></a></p>
+      <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="/img/Austin Reed's emblem.png" alt="emblem" class="emblem"></a></p>
         <p class="footer-copyright">Copyright &copy:2020</p>
     </footer>
-
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+    const lightbox = GLightbox({ loop: true });
+    </script>
 </body>
 </html>
