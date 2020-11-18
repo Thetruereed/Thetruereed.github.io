@@ -326,12 +326,12 @@ video {
   width: 100%;
 }
 
-.h2 {
+.h {
   color: white;
+  font-size: 2rem;
 }
-
 .shop-item1 {
-  max-width: 80%;
+  max-width: 50%;
   max-height: 300px auto;
 }
 .shop-item2 {
