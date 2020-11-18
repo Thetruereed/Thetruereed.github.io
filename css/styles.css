@@ -312,14 +312,15 @@ video {
   color: white;
 }
 
-.shop-page .textbox {
-  max-width: 50ch;
-  margin: 0 auto;
+.shop-page .text-box,
+.curated-shop {
+  max-width: 80ch;
+  margin: 0;
 }
 
 .shop-box {
   width: 266px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .shop-box iframe {
@@ -331,12 +332,8 @@ video {
   font-size: 2rem;
 }
 .shop-item1 {
-  max-width: 50%;
-  max-height: 300px auto;
 }
 .shop-item2 {
-  max-width: 50%;
-  max-height: 300px auto;
 }
 /* Begin Gif on hover */
 
